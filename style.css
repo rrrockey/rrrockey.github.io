@@ -13,10 +13,9 @@ img {
 }
 
 header {
-    height: 50px;
+    height: 100px;
     text-indent: 10px;
     background-color: #3498db;
-    padding: 20px;
     text-align: center;
     color: #fff;
     display: flex;
