@@ -5,8 +5,19 @@ img {
 }
 
 .box {
+    margin: auto;
     height: 100px;
     width: 100px;
     padding: 2px;
     background-color: lightgray;
+}
+
+header {
+    height: 50px;
+    text-indent: 10px;
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
 }
