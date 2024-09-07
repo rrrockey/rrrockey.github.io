@@ -1,34 +1,56 @@
-.Headshots {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-}
-
-.Logos {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.box {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    padding: 2px;
-    background-color: lightgray;
-}
-
-.header {
-    height: 100px;
-    text-indent: 10px;
-    background-color: #3498db;
-    text-align: center;
+header {
+    background-color: #333;
     color: #fff;
-    display: flex;
+    padding: 10px 0;
 }
 
-.header_center {
-    margin-left: auto; 
-    margin-right: auto;
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    }
+    
+nav li {
+    margin: 0 20px;
+    }
+    
+nav a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+img {
+    max-width: 200%;
+    }
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    }
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    }
+
+footer {
+    color: #333;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    
+footer a:hover {
+    color: #f39c12; /* Change color on hover */
+    }
+
+footer i {
+    justify-content: center;
 }
+
